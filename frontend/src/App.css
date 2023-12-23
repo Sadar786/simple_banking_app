@@ -1,0 +1,205 @@
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+
+}
+.nav{
+  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: fixed;
+  position: static;
+}
+.nav-ul {
+  background-color: skyblue;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+  font-size: large;
+}
+.nav-ul li a{
+  color: rgb(21, 20, 17);
+text-decoration: none;
+padding: 5px;
+}
+.logOut{
+  color:rgb(21, 20, 17);
+text-decoration: none;
+padding: 5px;
+}
+.signUp{
+    padding: 15px;
+    background-color: rgb(225, 234, 236);
+    padding-bottom: 11%;
+}
+.login{
+    padding: 1px;
+    background-color: rgb(225, 234, 236);
+    padding-bottom: 18%;
+}
+.name{
+  color: rgb(153, 33, 18);
+}
+.inputBox{
+  display: block;
+  margin-left: 35%;
+  padding: 3px;
+  margin-bottom: 40px;
+border-color: rgb(210, 229, 236);
+  border-radius: 5px;
+    width: 30%;
+font-size: large;
+}
+
+.logo{
+    width: 45px;
+    float: left;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: fixed;
+}
+.signUp-btn{
+ 
+  margin-left: 35%;
+    padding: 5px;
+    width: 30.5%;
+    background-color: royalblue;
+    color: white;
+    font-size: 100%;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out, padding 0.3s ease-in-out, font-size 0.5s ease-in-out;
+}
+.signUp-btn:hover{
+ 
+  margin-left: 35%;
+    padding: 7px;
+    width: 30.5%;
+    background-color: rgb(14, 35, 98);
+    color: white;
+    font-size: 102%;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: skyblue;
+    text-align: center;
+    position: fixed;
+}
+.product{
+  white-space: nowrap; 
+  overflow: auto;
+}
+.product_list{
+  text-align: center;
+}
+
+.product_list ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+
+}
+.product_list ul{
+  margin: 0;
+}
+
+.search_bar{
+    width: 400px;
+    height: 20px;
+    padding-left: 10px;
+    border: 1px solid skyblue;
+    margin-bottom: 10px;
+}
+
+.Addproduct{
+  display: flex;
+  flex-direction: column;
+}
+.addMore{
+  margin-left: 35%;
+    color: green;
+}
+.add{
+  margin-top: 0;
+    margin-left: 35%;
+    margin-bottom: -20px;
+}
+
+.item-box li{
+  white-space: nowrap;
+overflow: auto; 
+
+}
+/* App.css */
+.profile {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 400px;
+  margin-top: 7% !important;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+
+.profile-item {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.profile-heading {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.errorForInput{
+    color: red;
+    margin-top: -35px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: 35%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
